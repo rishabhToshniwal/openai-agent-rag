@@ -1,4 +1,4 @@
-import proxy_patch
+# import proxy_patch  # uncomment if behind corp proxy (disables SSL verify)
 from dotenv import load_dotenv
 from agents import Agent,Runner,function_tool,trace,ModelSettings
 import os
